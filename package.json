@@ -1,0 +1,32 @@
+{
+  "name": "vnnative3-example-plugin",
+  "version": "1.0.0",
+  "description": "Vn native framework version 3 example plugin",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steveleetn91/vnnative3-example-plugin.git"
+  },
+  "keywords": [
+    "vnnative-plugin",
+    "vnnative",
+    "stevelee"
+  ],
+  "author": "stevelee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/steveleetn91/vnnative3-example-plugin/issues"
+  },
+  "homepage": "https://github.com/steveleetn91/vnnative3-example-plugin#readme",
+  "dependencies": {
+    "@types/node": "^17.0.21",
+    "cli": "^1.0.1",
+    "fs": "^0.0.1-security",
+    "typescript": "^4.5.5",
+    "vnnative-3-os": "^1.0.0"
+  }
+}

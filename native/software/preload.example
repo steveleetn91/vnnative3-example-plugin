@@ -1,0 +1,5 @@
+contextBridge.exposeInMainWorld('exampleplugin', {
+  getData: () => {
+      return "data - software";
+  }
+})
