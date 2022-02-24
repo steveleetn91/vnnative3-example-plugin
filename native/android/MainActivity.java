@@ -1,3 +1,3 @@
 // native
-VnNativeExample vnos = new VnNativeOs(this, getPreferences(Context.MODE_PRIVATE), myWebView);
-myWebView.addJavascriptInterface(vnos, "exampleplugin");
+ExamplePluginAndroid exampleplugin = new ExamplePluginAndroid(this, getPreferences(Context.MODE_PRIVATE), myWebView);
+myWebView.addJavascriptInterface(exampleplugin, "exampleplugin");

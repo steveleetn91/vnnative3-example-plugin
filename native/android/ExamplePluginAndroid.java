@@ -13,7 +13,7 @@ public class ExamplePluginAndroid {
     Context context;
     WebView webView;
 
-    public VnNativeOs(Context ctx, SharedPreferences preferences, WebView myWebView) {
+    public ExamplePluginAndroid(Context ctx, SharedPreferences preferences, WebView myWebView) {
         sharedPref = preferences;
         context = ctx;
         webView = myWebView;
