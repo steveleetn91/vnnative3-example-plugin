@@ -1,6 +1,6 @@
 {
   "name": "vnnative3-example-plugin",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Vn native framework version 3 example plugin",
   "main": "dist/index.js",
   "scripts": {
