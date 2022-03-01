@@ -1,4 +1,4 @@
 // native
-let scriptSource = "window.exampleplugin = { getData : () => { return `Example - iOS` } }  "
-let script = WKUserScript(source: scriptSource, injectionTime: .atDocumentStart, forMainFrameOnly: true)
-contentController.addUserScript(script)
+let examplePlugin = "window.exampleplugin = { getData : () => { return `Example - iOS` } }  "
+let examplePluginscript = WKUserScript(source: examplePlugin, injectionTime: .atDocumentStart, forMainFrameOnly: true)
+contentController.addUserScript(examplePluginscript)
